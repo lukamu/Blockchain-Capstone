@@ -567,4 +567,3 @@ function mint (address to, uint256 tokenId/*, string tokenURI*/) public onlyOwne
         return true;
     }
 }
-

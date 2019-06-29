@@ -5,7 +5,7 @@ import './ERC721Mintable.sol';
 // TODO define a contract call to the zokrates generated solidity contract <Verifier> or <renamedVerifier>
 import './Verifier.sol';
 
-contract SquareVerifier is Verifier {
+contract SquareVerifier is Verifier{
 
 }
 
@@ -65,5 +65,5 @@ contract SolnSquareVerifier is RealEstateERC721Token {
         
         AddSolution(_solution_address, _tokenId, key);
         super.mint(_solution_address, _tokenId);
-    } 
+    }
 }
